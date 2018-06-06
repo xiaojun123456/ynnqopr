@@ -1,0 +1,326 @@
+
+{
+	"buildFiles" : [ "D:/AndroidStudioProjects/ynnqopr/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidStudioProjects\\ynnqopr\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"IlmImf-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "IlmImf",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/libIlmImf.a",
+			"toolchain" : "423535169"
+		},
+		"hyperlpr-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "hyperlpr",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidStudioProjects\\ynnqopr\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target hyperlpr",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/javaWarpper.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/src/CNNRecognizer.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/src/FastDeskew.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/src/FineMapping.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/src/Pipeline.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/src/PlateDetection.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/src/PlateSegmentation.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/src/Recognizer.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dhyperlpr_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include -isystem D:\\AndroidStudioDemo\\OpenCV-android-sdk-330\\sdk\\native\\jni\\include\\opencv -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidStudioProjects/ynnqopr/app/src/main/cpp/src/SegmentationFreeRecognizer.cpp",
+					"workingDirectory" : "D:/AndroidStudioProjects/ynnqopr/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "D:/AndroidStudioProjects/ynnqopr/app/build/intermediates/cmake/debug/obj/x86/libhyperlpr.so",
+			"toolchain" : "423535169"
+		},
+		"ippicv-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "ippicv",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/libippicv.a",
+			"toolchain" : "423535169"
+		},
+		"ippiw-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "ippiw",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/libipp_iw.a",
+			"toolchain" : "423535169"
+		},
+		"ittnotify-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "ittnotify",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/libittnotify.a",
+			"toolchain" : "423535169"
+		},
+		"libcpufeatures-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libcpufeatures",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/libcpufeatures.a",
+			"toolchain" : "423535169"
+		},
+		"libjasper-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libjasper",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/liblibjasper.a",
+			"toolchain" : "423535169"
+		},
+		"libjpeg-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libjpeg",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/liblibjpeg.a",
+			"toolchain" : "423535169"
+		},
+		"libpng-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libpng",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/liblibpng.a",
+			"toolchain" : "423535169"
+		},
+		"libprotobuf-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libprotobuf",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/liblibprotobuf.a",
+			"toolchain" : "423535169"
+		},
+		"libtiff-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libtiff",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/liblibtiff.a",
+			"toolchain" : "423535169"
+		},
+		"libwebp-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libwebp",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/liblibwebp.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_calib3d-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_calib3d",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_calib3d.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_core-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_core",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_core.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_dnn-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_dnn",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_dnn.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_features2d-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_features2d",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_features2d.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_flann-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_flann",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_flann.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_highgui-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_highgui",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_highgui.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_imgcodecs-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_imgcodecs",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_imgcodecs.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_imgproc-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_imgproc.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_java-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_java",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_java3.so",
+			"toolchain" : "423535169"
+		},
+		"opencv_ml-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_ml",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_ml.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_objdetect-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_objdetect",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_objdetect.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_photo-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_photo",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_photo.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_shape-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_shape",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_shape.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_stitching-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_stitching",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_stitching.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_superres-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_superres",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_superres.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_video-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_video",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_video.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_videoio-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_videoio",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_videoio.a",
+			"toolchain" : "423535169"
+		},
+		"opencv_videostab-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "opencv_videostab",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/libs/x86/libopencv_videostab.a",
+			"toolchain" : "423535169"
+		},
+		"tbb-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "tbb",
+			"buildType" : "debug",
+			"output" : "D:/AndroidStudioDemo/OpenCV-android-sdk-330/sdk/native/3rdparty/libs/x86/libtbb.a",
+			"toolchain" : "423535169"
+		}
+	},
+	"toolchains" : 
+	{
+		"423535169" : 
+		{
+			"cCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

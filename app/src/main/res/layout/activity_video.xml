@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal">
+
+    <!--相机预览窗口，上面设置的预览大小是1080x1920,为保证比例，记得Activity的style不要加ActionBar，保证全屏显示-->
+
+    <com.ynnqo.pr.CameraView
+        android:id="@+id/main_camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_img"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:src="@drawable/demo"/>-->
+
+    <com.ynnqo.pr.CropImageView2
+        android:id="@+id/iv_crop"
+        android:alpha="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:civLineColor="@color/colorPrimary"
+        app:civMagnifierCrossColor="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

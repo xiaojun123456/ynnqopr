@@ -1,0 +1,10 @@
+# ninja log v5
+2	11210	0	CMakeFiles/hyperlpr.dir/src/main/cpp/src/CNNRecognizer.cpp.o	9728f8e6b3511257
+26	11405	0	CMakeFiles/hyperlpr.dir/src/main/cpp/src/FastDeskew.cpp.o	11a745bfa0790855
+32	11414	0	CMakeFiles/hyperlpr.dir/src/main/cpp/src/PlateDetection.cpp.o	b8863750b58d021e
+29	11665	0	CMakeFiles/hyperlpr.dir/src/main/cpp/src/PlateSegmentation.cpp.o	c44e9f3c8e854642
+35	11862	0	CMakeFiles/hyperlpr.dir/src/main/cpp/src/Pipeline.cpp.o	f7fe013b6255d559
+24	12346	0	CMakeFiles/hyperlpr.dir/src/main/cpp/src/FineMapping.cpp.o	7e78cbf362a69b32
+11406	15332	0	CMakeFiles/hyperlpr.dir/src/main/cpp/src/Recognizer.cpp.o	7f89447b52c00bf8
+11414	15549	0	CMakeFiles/hyperlpr.dir/src/main/cpp/src/SegmentationFreeRecognizer.cpp.o	e251259053320e24
+11214	15706	0	CMakeFiles/hyperlpr.dir/src/main/cpp/javaWarpper.cpp.o	e726b6bf7b3f06f6
